@@ -1,0 +1,16 @@
+[package]
+name = "LakituLib"
+version = "0.1.0"
+authors = ["Ethan Jones <ethan@yasfu.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+rustc_version = "0.3.3"
+regex = "1.5.4"
