@@ -1,6 +1,6 @@
 [package]
-name = "LakituLib"
-version = "0.1.0"
+name = "lakitu_lib"
+version = "1.0.0"
 authors = ["Ethan Jones <ethan@yasfu.net>"]
 edition = "2018"
 
