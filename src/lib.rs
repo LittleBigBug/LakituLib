@@ -12,6 +12,7 @@ extern crate serde;
 
 pub mod duppy;
 pub mod user;
+pub mod channel;
 pub mod message;
 pub mod command;
 pub mod api;
