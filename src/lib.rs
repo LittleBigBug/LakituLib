@@ -15,6 +15,7 @@ pub mod user;
 pub mod channel;
 pub mod message;
 pub mod command;
+pub mod platform;
 pub mod api;
 
 pub static LAKITU_LIB_VERSION: &str = env!("CARGO_PKG_VERSION");
